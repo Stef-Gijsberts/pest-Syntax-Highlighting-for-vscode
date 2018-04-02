@@ -1,0 +1,68 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "pestfile",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "variable.name.pestfile",
+					"match": "^[a-z_][a-z0-9_]*" 
+				},
+				{
+					"name": "variable.name.pestfile",
+					"match": "[a-z_][a-z0-9_]*"
+				},
+				{
+					"name": "keyword.operator.pestfile",
+					"match": "(\\+|-|\\.\\.|!|~|_)"
+				}
+			]
+		},
+		"strings": {
+			"patterns": [
+				{
+					"name": "string.quoted.double.pestfile",
+					"begin": "\"",
+					"end": "\"",
+					"patterns": [
+						{
+							"name": "constant.character.escape.pestfile",
+							"match": "\\\\."
+						}
+					]
+				},
+				{
+					"name": "string.quoted.single.pestfile",
+					"begin": "'",
+					"end": "'",
+					"patterns": [
+						{
+							"name": "constant.character.escape.pestfile",
+							"match": "\\\\."
+						}
+					]
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.pestfile",
+					"match": "\/\/.*"
+				}
+			]
+		}
+	},
+	"scopeName": "source.pestfile"
+}

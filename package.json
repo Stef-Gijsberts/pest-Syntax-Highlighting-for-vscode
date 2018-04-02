@@ -1,0 +1,30 @@
+{
+    "name": "pestfile",
+    "displayName": "pestfile",
+    "description": "pestfile Syntax Highlighting",
+    "version": "0.0.1",
+    "publisher": "xoronic",
+    "repository": {
+        "url": "https://github.com/Xoronic/pest-Syntax-Highlighting-for-vscode",
+        "type": "git"
+    },
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pestfile",
+            "aliases": ["pestfile", "pestfile"],
+            "extensions": [".pest"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pestfile",
+            "scopeName": "source.pestfile",
+            "path": "./syntaxes/pestfile.tmLanguage.json"
+        }]
+    }
+}
