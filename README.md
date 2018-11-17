@@ -15,8 +15,8 @@ Added support for:
  
 Thanks [flying-sheep](https://github.com/flying-sheep) for contributing!
 
-### For more information
+## For more information
 
-* [pest. The Elegant Parser](https://github.com/pest-parser/pest)
+ - [pest. The Elegant Parser](https://github.com/pest-parser/pest)
 
 **Enjoy!**
