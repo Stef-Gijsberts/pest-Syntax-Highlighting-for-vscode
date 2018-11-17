@@ -2,7 +2,7 @@
     "name": "pestfile",
     "displayName": "pestfile",
     "description": "pestfile Syntax Highlighting",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "xoronic",
     "repository": {
         "url": "https://github.com/Xoronic/pest-Syntax-Highlighting-for-vscode",
@@ -12,7 +12,7 @@
         "vscode": "^1.21.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [{
