@@ -8,6 +8,13 @@
 
 Initial release.
 
+### 0.0.2
+Added support for:
+ - Builtin Variables (`COMMENT`, `WHITESPACE`), Operations (`PUSH`, `POP`, `PEEK`) and Constants.
+ - Multiline comments (nestable)
+ 
+Thanks [flying-sheep](https://github.com/flying-sheep) for contributing!
+
 ### For more information
 
 * [pest. The Elegant Parser](https://github.com/pest-parser/pest)
