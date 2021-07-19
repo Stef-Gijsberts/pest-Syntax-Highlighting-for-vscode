@@ -21,4 +21,8 @@ All notable changes to the "pest" extension will be documented in this file.
 ### Changed
 
 -   Identifiers with capital letters are now recognized as identifiers.
--   '@' and '$' are now highlighted as as operators.
+-   `@` and `$` are now highlighted as as operators.
+
+### Fixed
+
+-   `_` is now highlighted as an operator.

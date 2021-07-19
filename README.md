@@ -26,6 +26,6 @@ Thanks [flying-sheep](https://github.com/flying-sheep) for contributing!
 The following changes were made:
 
 -   Identifiers with capital letters are now recognized as an identifier.
--   '@' and '$' are now highlighted as as operators.
+-   `@`, `$` and `_` are now highlighted as as operators.
 
 Thanks to [drmason13](https://github.com/drmason13) for contributing!
