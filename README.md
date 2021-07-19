@@ -1,6 +1,6 @@
 # pest syntax highlighter
 
-A syntax highlighter for [pest's PEG grammar files](https://github.com/pest-parser/pest).
+A syntax highlighter for [pest](https://github.com/pest-parser/pest)'s PEG grammar files.
 
 **Enjoy!**
 
