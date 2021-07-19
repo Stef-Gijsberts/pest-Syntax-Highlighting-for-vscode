@@ -15,16 +15,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "pestfile",
-            "aliases": ["pestfile", "pestfile"],
-            "extensions": [".pest"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "pestfile",
-            "scopeName": "source.pestfile",
-            "path": "./syntaxes/pestfile.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "pestfile",
+                "aliases": [
+                    "pestfile",
+                    "pestfile"
+                ],
+                "extensions": [
+                    ".pest"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pestfile",
+                "scopeName": "source.pestfile",
+                "path": "./syntaxes/pestfile.tmLanguage.json"
+            }
+        ]
     }
 }
