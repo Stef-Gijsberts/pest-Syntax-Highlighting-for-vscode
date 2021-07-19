@@ -1,6 +1,8 @@
-# pest syntax highlighter README
+# pest syntax highlighter
 
-(unofficial) syntax highlighter for [pest-files](https://github.com/pest-parser/pest).
+A syntax highlighter for [pest's PEG grammar files](https://github.com/pest-parser/pest).
+
+**Enjoy!**
 
 ## Release Notes
 
@@ -15,8 +17,10 @@ Added support for:
  
 Thanks [flying-sheep](https://github.com/flying-sheep) for contributing!
 
-## For more information
+### 0.1.0
+The following changes were made:
 
- - [pest. The Elegant Parser](https://github.com/pest-parser/pest)
+- Identifiers with capital letters are now highlighted as such.
+- '@' and '$' are now highlighted as as operators.
 
-**Enjoy!**
+Thanks to [drmason13](https://github.com/drmason13) for contributing!
