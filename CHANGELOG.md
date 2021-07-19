@@ -12,5 +12,5 @@ All notable changes to the "pest" extension will be documented in this file.
 
 ## [0.1.0] - 2021-07-19
 ### Changed
-- Identifiers with capital letters are now highlighted as such.
+- Identifiers with capital letters are now recognized as identifiers.
 - '@' and '$' are now highlighted as as operators.
