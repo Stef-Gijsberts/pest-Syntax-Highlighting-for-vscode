@@ -65,11 +65,11 @@
 				},
 				{
 					"name": "variable.name.pestfile",
-					"match": "[a-z_][a-z0-9_]*"
+					"match": "[A-Za-z_][A-Za-z0-9_]*"
 				},
 				{
 					"name": "keyword.operator.pestfile",
-					"match": "\\+|-|\\.\\.|!|~|_"
+					"match": "\\+|-|\\.\\.|!|~|_|@|$"
 				}
 			]
 		},
