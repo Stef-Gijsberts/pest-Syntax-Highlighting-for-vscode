@@ -1,6 +1,9 @@
-# pest syntax highlighter README
+# pest syntax highlighter
 
-(unofficial) syntax highlighter for [pest-files](https://github.com/pest-parser/pest).
+A syntax highlighter for [pest](https://github.com/pest-parser/pest)'s PEG
+grammar files.
+
+**Enjoy!**
 
 ## Release Notes
 
@@ -9,14 +12,20 @@
 Initial release.
 
 ### 0.0.2
+
 Added support for:
- - Builtin Variables (`COMMENT`, `WHITESPACE`), Operations (`PUSH`, `POP`, `PEEK`) and Constants.
- - Multiline comments (nestable)
- 
+
+-   Builtin Variables (`COMMENT`, `WHITESPACE`), Operations (`PUSH`, `POP`,
+    `PEEK`) and Constants.
+-   Multiline comments (nestable)
+
 Thanks [flying-sheep](https://github.com/flying-sheep) for contributing!
 
-## For more information
+### 0.1.0
 
- - [pest. The Elegant Parser](https://github.com/pest-parser/pest)
+The following changes were made:
 
-**Enjoy!**
+-   Identifiers with capital letters are now recognized as an identifier.
+-   `@`, `$`, `_`, `*` and `?` are now highlighted as as operators.
+
+Thanks to [drmason13](https://github.com/drmason13) for contributing!
