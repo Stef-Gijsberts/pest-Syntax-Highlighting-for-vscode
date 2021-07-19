@@ -65,7 +65,7 @@
                 },
                 {
                     "name": "keyword.operator.pestfile",
-                    "match": "\\+|-|\\.\\.|!|~|_|@|\\$"
+                    "match": "\\+|-|\\.\\.|!|~|_|@|\\$|\\*|\\?"
                 },
                 {
                     "name": "variable.name.pestfile",
