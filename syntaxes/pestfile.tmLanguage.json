@@ -10,6 +10,9 @@
         },
         {
             "include": "#comments"
+        },
+        {
+            "include": "#multilinecomments"
         }
     ],
     "repository": {
@@ -65,7 +68,11 @@
                 },
                 {
                     "name": "keyword.operator.pestfile",
-                    "match": "\\+|-|\\.\\.|!|~|_|@|\\$|\\*|\\?"
+                    "match": "-|\\.\\.|!|~|_|@|\\$"
+                },
+                {
+                    "name": "keyword.operator.repetition.pestfile",
+                    "match": "\\+|\\*|\\?|{\\s*[0-9]*\\s*,\\s*[0-9]*\\s*}"
                 },
                 {
                     "name": "variable.name.pestfile",
@@ -104,12 +111,16 @@
                 {
                     "name": "comment.line.pestfile",
                     "match": "//.*"
-                },
+                }
+            ]
+        },
+        "multilinecomments": {
+            "patterns": [
                 {
                     "name": "comment.block.pestfile",
                     "begin": "/\\*",
                     "end": "\\*/",
-                    "patterns": [{ "include": "#comments" }]
+                    "patterns": [{ "include": "#multilinecomments" }]
                 }
             ]
         }
