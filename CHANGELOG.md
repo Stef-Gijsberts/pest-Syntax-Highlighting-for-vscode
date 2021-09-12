@@ -2,27 +2,22 @@
 
 All notable changes to the "pest" extension will be documented in this file.
 
-## [0.0.1] - 2018-04-02
+## 0.0.1 (2018-04-02)
 
-### Added
+-   Add simple highlighting of strings, comments and names.
 
--   Simple highlighting of strings, comments and names
+## 0.0.2 (2018-11-17)
 
-## [0.0.2] - 2018-11-17
+-   Add highlighting for builtin variables (`COMMENT`, `WHITESPACE`), operations
+    (`PUSH`, `POP`, `PEEK`) and constants.
+-   Add highlighting of multiline comments (nestable).
 
-### Added
+## 0.1.0 (2021-07-19)
 
--   Support for builtin Variables (`COMMENT`, `WHITESPACE`), Operations (`PUSH`,
-    `POP`, `PEEK`) and Constants.
--   Support for multiline comments (nestable)
+-   Identifiers with capital letters are now recognized as an identifier.
+-   `@`, `$`, `_`, `*` and `?` are now highlighted as as operators.
 
-## [0.1.0] - 2021-07-19
+## 0.2.0 (2021-09-13)
 
-### Changed
-
--   Identifiers with capital letters are now recognized as identifiers.
--   `@`, `$`, `*` and `?` are now highlighted as as operators.
-
-### Fixed
-
--   `_` is now highlighted as an operator.
+-   Fix nested comments.
+-   Hightlight `{m, n}` repetitions.
