@@ -5,6 +5,13 @@ grammar files.
 
 **Enjoy!**
 
+## Contributors
+
+-   Thanks [flying-sheep](https://github.com/flying-sheep) for contributing for
+    version 0.0.2!
+-   Thanks to [drmason13](https://github.com/drmason13) for contributing for
+    version 0.1.0 and 0.2.0!
+
 ## Release Notes
 
 ### 0.0.1
@@ -13,19 +20,16 @@ Initial release.
 
 ### 0.0.2
 
-Added support for:
-
--   Builtin Variables (`COMMENT`, `WHITESPACE`), Operations (`PUSH`, `POP`,
-    `PEEK`) and Constants.
--   Multiline comments (nestable)
-
-Thanks [flying-sheep](https://github.com/flying-sheep) for contributing!
+-   Add highlighting for Builtin Variables (`COMMENT`, `WHITESPACE`), Operations
+    (`PUSH`, `POP`, `PEEK`) and Constants.
+-   Add highlighting of Multiline comments (nestable).
 
 ### 0.1.0
-
-The following changes were made:
 
 -   Identifiers with capital letters are now recognized as an identifier.
 -   `@`, `$`, `_`, `*` and `?` are now highlighted as as operators.
 
-Thanks to [drmason13](https://github.com/drmason13) for contributing!
+### 0.2.0
+
+-   Fix nested comments.
+-   Hightlight `{m, n}` repetitions.
