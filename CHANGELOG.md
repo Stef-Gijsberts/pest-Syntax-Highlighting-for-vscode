@@ -20,4 +20,4 @@ All notable changes to the "pest" extension will be documented in this file.
 ## 0.2.0 (2021-09-13)
 
 -   Fix nested comments.
--   Hightlight `{m, n}` repetitions.
+-   Highlight `{m, n}` repetitions.
