@@ -12,24 +12,7 @@ grammar files.
 -   Thanks to [drmason13](https://github.com/drmason13) for contributing for
     version 0.1.0 and 0.2.0!
 
-## Release Notes
+## What's new?
 
-### 0.0.1
-
-Initial release.
-
-### 0.0.2
-
--   Add highlighting for Builtin Variables (`COMMENT`, `WHITESPACE`), Operations
-    (`PUSH`, `POP`, `PEEK`) and Constants.
--   Add highlighting of Multiline comments (nestable).
-
-### 0.1.0
-
--   Identifiers with capital letters are now recognized as an identifier.
--   `@`, `$`, `_`, `*` and `?` are now highlighted as as operators.
-
-### 0.2.0
-
--   Fix nested comments.
--   Hightlight `{m, n}` repetitions.
+All notable changes are listed in the
+[changelog](https://github.com/Xoronic/pest-Syntax-Highlighting-for-vscode/blob/master/CHANGELOG.md).
