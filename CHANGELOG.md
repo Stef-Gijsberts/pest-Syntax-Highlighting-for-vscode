@@ -21,3 +21,8 @@ All notable changes to the "pest" extension will be documented in this file.
 
 -   Fix nested comments.
 -   Highlight `{m, n}` repetitions.
+
+## 0.3.0 (2022-08-29)
+
+-   Add the `fileTypes` field so that the filename is correctly matched for
+    editors other than vscode.

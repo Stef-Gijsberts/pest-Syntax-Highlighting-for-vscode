@@ -7,9 +7,12 @@ grammar files.
 
 ## Thanks
 
--   [flying-sheep](https://github.com/flying-sheep) for contributing to version 0.0.2
--   [drmason13](https://github.com/drmason13) for contributing to version 0.1.0 and 0.2.0
--   [Anthony Sottile](https://github.com/asottile) for contributing to version 0.3.0
+-   [flying-sheep](https://github.com/flying-sheep) for contributing to version
+    0.0.2
+-   [drmason13](https://github.com/drmason13) for contributing to version 0.1.0
+    and 0.2.0
+-   [Anthony Sottile](https://github.com/asottile) for contributing to version
+    0.3.0
 
 ## What's new?
 
