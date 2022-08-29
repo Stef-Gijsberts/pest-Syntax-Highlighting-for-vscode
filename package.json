@@ -1,11 +1,12 @@
 {
     "name": "pestfile",
-    "displayName": "pestfile",
-    "description": "pestfile Syntax Highlighting",
-    "version": "0.2.0",
+    "displayName": "pest",
+    "description": "Syntax highlighting for pest's PEG grammars",
+    "version": "0.3.0",
     "publisher": "xoronic",
+    "license": "MIT",
     "repository": {
-        "url": "https://github.com/Xoronic/pest-Syntax-Highlighting-for-vscode",
+        "url": "https://github.com/Stef-Gijsberts/pest-Syntax-Highlighting-for-vscode",
         "type": "git"
     },
     "engines": {
