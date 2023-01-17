@@ -2,7 +2,7 @@
     "name": "pestfile",
     "displayName": "pest",
     "description": "Syntax highlighting for pest's PEG grammars",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "publisher": "xoronic",
     "license": "MIT",
     "repository": {
