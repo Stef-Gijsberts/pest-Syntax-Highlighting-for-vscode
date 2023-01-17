@@ -89,8 +89,7 @@
                     "end": "\"",
                     "patterns": [
                         {
-                            "name": "constant.character.escape.pestfile",
-                            "match": "\\\\."
+                          "include": "#characterescape"
                         }
                     ]
                 },
@@ -100,8 +99,7 @@
                     "end": "'",
                     "patterns": [
                         {
-                            "name": "constant.character.escape.pestfile",
-                            "match": "\\\\."
+                          "include": "#characterescape"
                         }
                     ]
                 }
@@ -128,6 +126,10 @@
                     ]
                 }
             ]
+        },
+        "characterescape": {
+          "name": "constant.character.escape.pestfile",
+          "match": "((\\\\u\\{[a-fA-F0-9]{4}\\})|(\\\\.))"
         }
     },
     "scopeName": "source.pestfile"
