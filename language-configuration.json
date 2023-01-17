@@ -10,14 +10,16 @@
         ["[", "]"],
         ["(", ")"]
     ],
-    // symbols that are auto closed when typing
+    // symbols that are auto closed when typing, but don't autoclose them inside of strings
     "autoClosingPairs": [
-        ["{", "}"],
-        ["[", "]"],
-        ["(", ")"],
-        ["\"", "\""],
-        ["'", "'"]
+        { "open": "{", "close": "}", "notIn": ["string"] },
+        { "open": "[", "close": "]", "notIn": ["string"] },
+        { "open": "(", "close": ")", "notIn": ["string"] },
+        { "open": "\"", "close": "\"", "notIn": ["string"] },
+        { "open": "'", "close": "'", "notIn": ["string"] },
+        { "open": "/*", "close": "*/", "notIn": ["string"] }
     ],
+    "autoCloseBefore": ";:.,=}])>` \n\t",
     // symbols that that can be used to surround a selection
     "surroundingPairs": [
         ["{", "}"],
@@ -25,5 +27,26 @@
         ["(", ")"],
         ["\"", "\""],
         ["'", "'"]
-    ]
+    ],
+    "colorizedBracketPairs": [
+      [
+        "(",
+        ")"
+      ],
+      [
+        "[",
+        "]"
+      ],
+      [
+        "{",
+        "}"
+      ]
+    ],
+    "folding": {
+      "markers": {
+        "start": "^.+\\s=\\s[@_#!]?{\\n",
+        "end": "^([^\"][^\\s\\S])*}([^\"][\\s\\S])*"
+      },
+      "offSide": false
+    },
 }
