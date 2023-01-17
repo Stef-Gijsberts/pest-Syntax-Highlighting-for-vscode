@@ -26,3 +26,10 @@ All notable changes to the "pest" extension will be documented in this file.
 
 -   Add the `fileTypes` field so that the filename is correctly matched for
     editors other than vscode.
+
+## 0.4.0 (2023-01-17)
+
+-   Add support for bracket coloring.
+-   Add support for autoclosing multi-line comments.
+-   Add support for folding.
+-   Change the autoclosing brackets to not autoclose inside of strings.
