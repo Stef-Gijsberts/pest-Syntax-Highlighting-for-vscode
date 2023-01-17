@@ -40,4 +40,8 @@
       },
       "offSide": false
     },
+    "indentationRules": {
+      "increaseIndentPattern": "^((?!\\/(\\/|\\*)).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$",
+      "decreaseIndentPattern": "^((?!.*?\\/\\*).*\\*/)?\\s*[\\)\\}\\]].*$"
+    }
 }
