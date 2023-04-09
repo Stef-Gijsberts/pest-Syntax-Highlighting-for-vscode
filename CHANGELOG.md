@@ -33,3 +33,7 @@ All notable changes to the "pest" extension will be documented in this file.
 -   Add support for autoclosing multi-line comments.
 -   Add support for folding.
 -   Change the autoclosing brackets to not autoclose inside of strings.
+
+## 0.4.1 (2023-04-09)
+
+-   Rename the extension to 'Pest Syntax Highlighter'.
